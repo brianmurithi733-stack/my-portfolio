@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Murithi | ICT & Web Consultant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Updated to Full Name -->
+            <span class="text-xl font-bold text-blue-600 tracking-tight">Brian Murithi</span>
+            <div class="hidden md:flex space-x-6">
+                <a href="#skills" class="text-sm font-medium hover:text-blue-600 transition">Expertise</a>
+                <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-blue-700 transition shadow-md">Consult Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="py-24 bg-white border-b border-gray-100">
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 text-gray-900 tracking-tight">ICT Specialist & <span class="text-blue-600">Web Developer</span></h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Providing professional network management, modern web development, and comprehensive technical support solutions.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#contact" class="bg-blue-600 text-white px-8 py-4 rounded-2xl font-bold shadow-xl hover:bg-blue-700 hover:-translate-y-1 transition duration-300">Work With Me</a>
+                <a href="#skills" class="bg-gray-100 text-gray-800 px-8 py-4 rounded-2xl font-bold hover:bg-gray-200 transition duration-300">Technical Skills</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Expanded Skills Matrix -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Technical Expertise</h2>
+                <div class="h-1 w-20 bg-blue-600 mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Web Development -->
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 hover:shadow-lg transition">
+                    <div class="text-blue-600 mb-4 text-3xl"><i class="fas fa-code"></i></div>
+                    <h3 class="font-bold mb-3">Web Development</h3>
+                    <ul class="text-gray-600 text-sm space-y-2">
+                        <li>• Frontend (HTML/Tailwind)</li>
+                        <li>• Node.js Foundations</li>
+                        <li>• Web Hosting & Deployment</li>
+                        <li>• Technical Site Maintenance</li>
+                    </ul>
+                </div>
+
+                <!-- Network Management -->
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 hover:shadow-lg transition">
+                    <div class="text-blue-600 mb-4 text-3xl"><i class="fas fa-network-wired"></i></div>
+                    <h3 class="font-bold mb-3">Network Management</h3>
+                    <ul class="text-gray-600 text-sm space-y-2">
+                        <li>• VPN & Tunneling</li>
+                        <li>• WireGuard Configuration</li>
+                        <li>• Network Security Protocols</li>
+                        <li>• Obfuscation Techniques</li>
+                    </ul>
+                </div>
+
+                <!-- OS & Systems -->
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 hover:shadow-lg transition">
+                    <div class="text-blue-600 mb-4 text-3xl"><i class="fas fa-desktop"></i></div>
+                    <h3 class="font-bold mb-3">Systems & IT Support</h3>
+                    <ul class="text-gray-600 text-sm space-y-2">
+                        <li>• Linux (Ubuntu, Kali)</li>
+                        <li>• Windows System Admin</li>
+                        <li>• Hardware Troubleshooting</li>
+                        <li>• Data Management</li>
+                    </ul>
+                </div>
+
+                <!-- Microsoft Office -->
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 hover:shadow-lg transition">
+                    <div class="text-blue-600 mb-4 text-3xl"><i class="fas fa-file-invoice"></i></div>
+                    <h3 class="font-bold mb-3">Microsoft Office</h3>
+                    <ul class="text-gray-600 text-sm space-y-2">
+                        <li>• Advanced Excel Formulas</li>
+                        <li>• MS Access Databases</li>
+                        <li>• Document Automation</li>
+                        <li>• Technical Reporting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-blue-600 relative overflow-hidden">
+        <div class="max-w-xl mx-auto px-4 text-center relative z-10">
+            <h2 class="text-3xl font-bold mb-4 text-white">Let's Work Together</h2>
+            <p class="mb-10 text-blue-100">Consult with a professional for your next technical project.</p>
+            
+            <form action="https://formspree.io/f/xwvyeopg" method="POST" class="bg-white p-8 md:p-10 rounded-[2rem] shadow-2xl text-left space-y-5">
+                <div>
+                    <label class="block text-sm font-bold text-gray-700 mb-2">Your Name</label>
+                    <input type="text" name="name" placeholder="John Doe" class="w-full p-4 rounded-xl bg-gray-50 border border-transparent focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition" required>
+                </div>
+                <div>
+                    <label class="block text-sm font-bold text-gray-700 mb-2">Email Address</label>
+                    <input type="email" name="email" placeholder="john@example.com" class="w-full p-4 rounded-xl bg-gray-50 border border-transparent focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition" required>
+                </div>
+                <div>
+                    <label class="block text-sm font-bold text-gray-700 mb-2">Message</label>
+                    <textarea name="message" rows="4" placeholder="Describe your technical needs..." class="w-full p-4 rounded-xl bg-gray-50 border border-transparent focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition" required></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-xl hover:bg-blue-700 transform active:scale-95 transition shadow-lg shadow-blue-200">
+                    Send Inquiry
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-gray-50 text-center">
+        <p class="text-gray-400 text-sm">&copy; 2026 Brian Murithi. Professional Technical Portfolio.</p>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/254113997974" class="fixed bottom-8 right-8 bg-[#25D366] text-white p-5 rounded-full shadow-2xl hover:scale-110 transition-transform z-50 flex items-center justify-center group" target="_blank">
+        <i class="fab fa-whatsapp text-3xl"></i>
+        <span class="absolute right-full mr-3 bg-gray-900 text-white text-xs px-3 py-1 rounded-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Chat on WhatsApp</span>
+    </a>
+
+</body>
+</html>
